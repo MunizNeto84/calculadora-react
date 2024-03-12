@@ -3,5 +3,8 @@
   width: 14rem;
   border-radius: 0.3rem;
   overflow: hidden;
-  background-color: blue;
+
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 3rem 3rem 3rem 3rem 3rem;
 }
